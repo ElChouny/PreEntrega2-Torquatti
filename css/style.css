@@ -289,6 +289,29 @@ section div h2 {
     margin: 10px;
 }
 
+
+/*!-----------ALINEACIONES--------------*/
+
+
+
+
+.alineaciones-del-equipo {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.alineaciones-del-equipo div {
+    padding: 10px;
+}
+
+.alineaciones-del-equipo div p {
+    margin: 10px;
+}
 /*!------CONTACTO-------*/
 
 .contactame {
