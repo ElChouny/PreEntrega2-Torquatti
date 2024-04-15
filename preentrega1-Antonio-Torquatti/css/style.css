@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*-------RESET-------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CLASES */
+/* AUMENTAR ESPECIFICIDAD */
+
+
+/* PARA AGRUPAR PROPIEDADES Y REUTILIZAR */
+/*!----INDEX----*/
+
+
+
+
+/*?------HEADER------*/
+.bienvenidos {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: auto;
+}
+
+.bienvenidos nav div{
+    color: white;
+}
+/*vh (viewport height)*/
+
+.bienvenidos img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.lista>li {
+    margin: 0 30px;
+}
+
+.bienvenidos h1 {
+    font-size: 20px;
+}
+
+nav ul {
+    background-color: black;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+}
+
+
+/**------MAIN------*/
+
+/*.grid-container
+    border: solid 4px rgb(253, 26, 1);
+    margin: 5px;
+    /*!----Habilitamos grilla----*/
+/*display: grid;
+
+/*grid-template-rows: 200px 200px 200px;*/
+/*grid-auto-rows: 200px;
+/*grid-template-columns: 200px 200px 200px;*/
+/*grid-template-columns: 33.3% 33.3% 33.3%;*/
+/*grid-template-columns: 1fr 1fr 1fr;*/
+/*grid-template-columns: repeat(3, 1fr);*/
+/*!-----gap---*/
+/*gap: 20px;
+    column-gap: ;
+    row-gap: ;*/
+
+
+/*.grid-item {
+    border: solid 2px red;
+    background-color: burlywood;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+}*/
+
+/*.primer-item {
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+/*grid-column: 1/3;
+*/
+
+/*.tercer-item {
+    grid-row: 2/4;
+}*/
+
+/*.noveno-item {
+    grid-column: 2/4;
+}*/
+
+
+.equipo {
+    background-image: url(../img/FOTO\ PORTADA.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*grid-area: section;*/
+    display: flex;
+
+}
+
+.historia {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    /*grid-area: main;*/
+    justify-content: space-between;
+}
+
+.historia img {
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+section div .historia p {
+    margin-bottom: 0;
+    text-indent: 5px;
+}
+
+.historia div {
+    padding: 20px;
+}
+
+.historia div h2 {
+    font-size: 30px;
+}
+
+.historia div p {
+    text-indent: 5px;
+}
+
+.historia {
+    background-color: rgb(184, 68, 68);
+    color: white;
+}
+
+
+
+/*?---------TORNEOS-DISPUTADOS--------*/
+
+.torneos-disputados {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: nowrap;
+    padding-left: 70px;
+}
+
+section div h2 {
+    height: auto;
+    background-color: rgb(184, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: none;
+}
+
+.torneos-disputados div {
+    height: auto;
+    border: 2px white solid;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(105, 39, 39);
+    margin: 15px;
+}
+
+.torneos-disputados div img{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.torneos-disputados img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.torneos-disputados {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+/**------JUGADORES------*/
+
+.jugadores {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.jugadores div h2 {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: none;
+}
+
+.jugadores div {
+    border: 2px white solid;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(105, 39, 39);
+    margin: 15px;
+}
+
+.jugadores img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+.jugadores {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/**----PARTIDOS----**/
+
+.partidos {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.partidos div {
+    padding: 10px;
+}
+
+.partidos div p {
+    margin: 10px;
+}
+
+
+/*!-----------ALINEACIONES--------------*/
+
+
+
+
+.alineaciones-del-equipo {
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 10px;
+    font-style: normal;
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.alineaciones-del-equipo div {
+    padding: 10px;
+}
+
+.alineaciones-del-equipo div p {
+    margin: 10px;
+}
+/*!------CONTACTO-------*/
+
+.contactame {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-direction: column;
+    text-align: center;
+
+    border: none;
+}
+
+.contactame section form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactame section div {
+    padding: 5px;
+}
+
+.contactame section form div label {
+    color: aliceblue;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.contactame section form div input {
+    background-color: white;
+    color: black;
+}
+
+.contactame section form div input {
+    width: 160px;
+    border: white 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    color: black;
+    font-weight: 200px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*?------FOOTER------*/
+.final img {
+    width: 30px;
+    height: 30px;
+}
+
+.final p {
+    color: white;
+}
+
+.final {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    /*grid-area: footer;*/
+}
+
+
+/*!----MEDIA QUERY----!*/
+
+/*@media screen and (max-width:650px) {}
+
+
+/*AND*/
+/*HASTA Y DESDE*/
+/*@media (max-width:800px) and (max-height: 554) {
+    .historia {
+        font-size: 30px
+    }
+}
+
+
+/*Print*/
+@media print {}
+
+
+/*POSICION DE LA PANTALLA*/
+
+@media (orientation: landscape) {}
+
+
+
+
+/*?------METODOLOGIA DE NOMBRADO------*/
+
+/*camelCase*/
+/*miPrimerProyecto*/
+
+
+/*kebab-case*/
+/*mi-primer-proyecto
+
+
+/*PascalCase*/
+/*MiPrimerProyecto*/
+
+
+/* snake_case*/
+/*mi_primer_proyecto*/
+
+
+
+/**PSEUDOCLASES*/
+
+/*se aplica a los elementos <a> que tengan un atributo href definido y no hayan sido visitados*/
+/*.enlace:link {display: block;}
+
+/*se aplica a los elementos <a> que tengan un atributo href definido y hayan sido visitados*/
+/*.enlace:visited {}
+
+/*se aplica a todos los elementos cuando el cursor se posiciona sobre ellos*/
+
+/*.lista:hover {
+    
+}
+
+/*se aplica a todos los elementos cuando se clickea sobre ellos*/
+
+/*.lista:active {
+    
+}
+
+/*se aplica a todos los elementos A, excepto a los elementos incluidos en B*/
+
+/*.historia div:not(h2) {
+
+}
+
+
+/*con esta pseudoclase podemos aplicar estilos a todos los elementos cuya posicion sea la indicada*/
+
+/*.lista div:nth-child(2n) {}
+
+
+/*! PSEUDO ELEMENTO*/
+
+/*p ::first-line {}
+
+/*p ::first-letter {}
+
+/*p ::selection {}
