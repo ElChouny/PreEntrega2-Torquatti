@@ -193,45 +193,36 @@ section div .historia p {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: nowrap;
-    padding-left: 70px;
+    padding-left: 20px;
 }
 
 section div h2 {
-    height: auto;
+    
     background-color: rgb(184, 68, 68);
     color: white;
     text-align: center;
-    padding: 20px;
-    border: none;
 }
 
 .torneos-disputados div {
-    height: auto;
     border: 2px white solid;
     padding: 5px;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background-color: rgb(105, 39, 39);
     margin: 15px;
 }
 
-.torneos-disputados div img{
-    height: auto;
-    padding-bottom: 20px;
-}
-
 .torneos-disputados img {
-    width: 200px;
-    height: 200px;
-    margin: 5px;
-    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    
+    padding-bottom: 20px;
 }
 
 .torneos-disputados {
     background-color: rgb(184, 68, 68);
     color: white;
     flex-wrap: wrap;
-    height: auto;
     justify-content: space-evenly;
 }
 
@@ -257,8 +248,8 @@ section div h2 {
 
 .jugadores div {
     border: 2px white solid;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     display: inline-block;
     background-color: rgb(105, 39, 39);
     margin: 15px;
@@ -267,7 +258,7 @@ section div h2 {
 .jugadores img {
     width: 200px;
     height: 200px;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 .jugadores {
@@ -390,13 +381,13 @@ section div h2 {
 
 /*!----MEDIA QUERY----!*/
 
-/*@media screen and (max-width:650px) {}
+@media screen and (max-width:650px) {}
 
 
 /*AND*/
 /*HASTA Y DESDE*/
-/*@media (max-width:800px) and (max-height: 554) {
-    .historia {
+@media (max-width:800px) and (max-height: 554) {
+    .bienvenidos {
         font-size: 30px
     }
 }
