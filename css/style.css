@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding: auto;
+    color: white;
 }
 
 .bienvenidos nav div{
@@ -38,6 +39,9 @@
     margin: 5px;
 }
 
+.navApariencia{
+    color: white;
+}
 .lista {
     display: flex;
     flex-direction: row;
@@ -140,8 +144,8 @@ header h1 {
 
 .historia {
     font-family: "Poppins", sans-serif;
-    font-size: 10px;
-    font-weight: 10px;
+    font-size: 15px;
+    font-weight: 5px;
     font-style: normal;
     text-align: justify;
     align-items: center;
@@ -151,7 +155,7 @@ header h1 {
 }
 
 .historia img {
-    width: 50%;
+    width: 75%;
     height: 300px;
     padding: 10px;
     display: flex;
@@ -231,6 +235,7 @@ section div h2 {
 
 .jugadores {
     font-family: "Poppins", sans-serif;
+    padding: 40px;
     font-size: 10px;
     font-weight: 10px;
     font-style: normal;
@@ -243,7 +248,7 @@ section div h2 {
     background-color: rgb(184, 68, 68);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     border: none;
 }
 
@@ -257,9 +262,9 @@ section div h2 {
 }
 
 .jugadores img {
-    width: 200px;
-    height: 200px;
-    padding-bottom: 5px;
+    width: 175px;
+    height: 175px;
+    padding-bottom: 25px;
 }
 
 .jugadores {
@@ -387,9 +392,11 @@ section div h2 {
 
 /*AND*/
 /*HASTA Y DESDE*/
-@media (max-width:940px) and (max-height: 667) {
+@media (max-width:940px)  {
+    .bienvenidos{
+        font-size: 15px;
+    }
     .equipo {
-        height: 350px;
         width: 100%;
     }
     .historia{
@@ -397,16 +404,36 @@ section div h2 {
         text-align: justify;
     }
     .historia img{
-        width: 100%;
+        width: 50%;
         height: auto;
     }
     .torneos-disputados{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
     }
 }
 
-
+@media(max-width:560px) {
+    .equipo {
+        height: 250px;
+        width: auto;
+    }
+    
+    .historia{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .historia img{
+        width: 50%;
+        height: auto;
+    }
+    .torneos-disputados{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+}
 /*Print*/
 @media print {}
 
