@@ -20,17 +20,12 @@
 /*?------HEADER------*/
 .navbar {
     background-color: black;
-    flex-direction: row;
-    display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: auto;
     color: white;
 }
 
-.navbar div{
-    color: white;
-}
 /*vh (viewport height)*/
 
 .navbar-brand img{
@@ -41,9 +36,7 @@
 
 
 .collapse {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: nowrap;
+
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -60,7 +53,6 @@
 .navbar-nav {
     background-color: black;
     list-style: none;
-    display: inline-block;
 }
 
 .nav-item {
@@ -68,6 +60,9 @@
     color: white;
 }
 
+.nav-item a {
+    color: white;
+}
 .nav-item {
     text-align: center;
     vertical-align: top;
@@ -391,9 +386,6 @@ section div h2 {
 /*AND*/
 /*HASTA Y DESDE*/
 @media (max-width:940px)  {
-    .bienvenidos{
-        font-size: 15px;
-    }
     .equipo {
         width: 100%;
     }
@@ -436,7 +428,7 @@ section div h2 {
 
 @media(max-width:400px) {
     .equipo {
-        height: 250px;
+        height: 125px;
         width: auto;
     }
     
