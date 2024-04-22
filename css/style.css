@@ -18,59 +18,57 @@
 
 
 /*?------HEADER------*/
-.bienvenidos {
+.navbar {
     background-color: black;
-    display: flex;
     flex-direction: row;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: auto;
     color: white;
 }
 
-.bienvenidos nav div{
+.navbar div{
     color: white;
 }
 /*vh (viewport height)*/
 
-.bienvenidos img {
+.navbar-brand img{
     width: 100px;
     height: 100px;
     margin: 5px;
 }
 
-.navApariencia{
-    color: white;
-}
-.lista {
-    display: flex;
+
+.collapse {
     flex-direction: row;
+    display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     color: white;
 }
 
-.lista>li {
+.navbar-nav {
     margin: 0 30px;
 }
 
-.bienvenidos h1 {
+.navbar h1 {
     font-size: 20px;
 }
 
-nav ul {
+.navbar-nav {
     background-color: black;
     list-style: none;
     display: inline-block;
 }
 
-nav ul li a {
+.nav-item {
     text-decoration: none;
     color: white;
 }
 
-nav ul li {
+.nav-item {
     text-align: center;
     vertical-align: top;
     margin-top: 40px;
@@ -415,6 +413,28 @@ section div h2 {
 }
 
 @media(max-width:560px) {
+    .equipo {
+        height: 250px;
+        width: auto;
+    }
+    
+    .historia{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .historia img{
+        width: 50%;
+        height: auto;
+    }
+    .torneos-disputados{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+}
+
+
+@media(max-width:400px) {
     .equipo {
         height: 250px;
         width: auto;
