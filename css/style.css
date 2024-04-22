@@ -428,6 +428,29 @@ section div h2 {
 
 @media(max-width:400px) {
     .equipo {
+        height: 250px;
+        width: auto;
+    }
+    
+    .historia{
+        font-size: 10px;
+        text-align: justify;
+    }
+    .historia img{
+        width: 50%;
+        height: auto;
+    }
+    .torneos-disputados{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+}
+
+
+
+@media(max-width: 350px) {
+    .equipo {
         height: 125px;
         width: auto;
     }
