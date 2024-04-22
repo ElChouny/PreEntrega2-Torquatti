@@ -36,15 +36,12 @@
 
 
 .collapse {
-
     align-items: center;
     justify-content: space-between;
     color: white;
 }
 
-.navbar-nav {
-    margin: 0 30px;
-}
+
 
 .navbar h1 {
     font-size: 20px;
@@ -53,6 +50,8 @@
 .navbar-nav {
     background-color: black;
     list-style: none;
+    justify-content: center;
+    margin: 0 30px;
 }
 
 .nav-item {
@@ -65,8 +64,7 @@
 }
 .nav-item {
     text-align: center;
-    vertical-align: top;
-    margin-top: 40px;
+    margin-top: 40px 40px;
 }
 
 
@@ -453,7 +451,7 @@ section div h2 {
 
 
 
-@media(max-width: 350px) {
+/*@media(max-width: 350px) {
     .equipo {
         height: 125px;
         width: auto;
