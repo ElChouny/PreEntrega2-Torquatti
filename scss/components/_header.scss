@@ -1,0 +1,55 @@
+header {
+    nav {
+        background-color: black;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: auto;
+        color: white;
+
+        .container-fluid {
+            a {
+                img {
+                    width: 100px;
+                    height: 100px;
+                    margin: 5px;
+                }
+            }
+
+            button {
+                background-color: white;
+            }
+
+            .collapse {
+                align-items: center;
+                justify-content: space-between;
+                color: white;
+
+                ul {
+                    background-color: black;
+                    list-style: none;
+                    justify-content: center;
+                    margin: 0 30px;
+
+                    li {
+                        text-decoration: none;
+                        color: white;
+                        text-align: center;
+                        margin-top: 40px 40px;
+
+                        a {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            h1 {
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 900;
+                color: white;
+                padding: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.final{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    p{
+        color: white;
+    }
+    a{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

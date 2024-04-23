@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header nav {
   background-color: black;
   align-items: center;
@@ -34,7 +41,7 @@ header nav .container-fluid .collapse ul li a {
   color: white;
 }
 header nav .container-fluid h1 {
-  font-size: 50px;
+  font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   font-weight: 900;
   color: white;
@@ -61,12 +68,15 @@ header nav .container-fluid h1 {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(184, 68, 68);
+  color: white;
 }
 .historia section div {
   padding: 20px;
 }
 .historia section div h2 {
   font-size: 30px;
+  text-align: center;
 }
 .historia section div p {
   margin-bottom: 0;
@@ -74,10 +84,11 @@ header nav .container-fluid h1 {
 }
 .historia section div img {
   width: 75%;
-  height: 300px;
+  height: 450px;
   padding: 10px;
   display: flex;
   align-items: center;
+  object-fit: cover;
 }
 
 .final {
@@ -93,6 +104,63 @@ header nav .container-fluid h1 {
 .final a img {
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 940px) {
+  .equipo {
+    width: 100%;
+  }
+  .historia {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .historia img {
+    width: 50%;
+    height: auto;
+  }
+  .torneos-disputados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .equipo {
+    height: 250px;
+    width: auto;
+  }
+  .historia {
+    font-size: 10px;
+    text-align: justify;
+  }
+  .historia img {
+    width: 50%;
+    height: auto;
+  }
+  .torneos-disputados {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .equipo {
+    height: 250px;
+    width: auto;
+  }
+  .historia {
+    font-size: 10px;
+    text-align: justify;
+  }
+  .historia img {
+    width: 50%;
+    height: auto;
+  }
+  .torneos-disputados {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
