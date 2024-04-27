@@ -83,7 +83,7 @@ header nav .container-fluid h1 {
   text-indent: 5px;
 }
 .historia section div img {
-  width: 75%;
+  width: 60%;
   height: 450px;
   padding: 10px;
   display: flex;
@@ -145,7 +145,7 @@ header nav .container-fluid h1 {
 }
 @media (max-width: 400px) {
   .equipo {
-    height: 250px;
+    height: 125px;
     width: auto;
   }
   .historia {
@@ -153,8 +153,8 @@ header nav .container-fluid h1 {
     text-align: justify;
   }
   .historia img {
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 50%;
   }
   .torneos-disputados {
     display: grid;

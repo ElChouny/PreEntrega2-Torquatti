@@ -41,7 +41,7 @@
 
 @media(max-width:400px) {
     .equipo {
-        height: 250px;
+        height: 125px;
         width: auto;
     }
     
@@ -50,8 +50,8 @@
         text-align: justify;
     }
     .historia img{
-        width: 50%;
-        height: auto;
+        width: auto;
+        height: 50%;
     }
     .torneos-disputados{
         display: grid;
