@@ -1,0 +1,45 @@
+
+.contactame {
+    background-color: rgb(184, 68, 68);
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+
+    section {
+        form {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            padding: 5px;
+
+            label {
+                color: aliceblue;
+                font-weight: 500px;
+                font-size: 20px;
+            }
+        }
+
+        div {
+            input {
+                width: 160px;
+                border: white 1px solid;
+                border-radius: 10px;
+                text-align: center;
+                margin: 5px;
+                color: black;
+                font-weight: 200px;
+                margin: 10px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
