@@ -26,11 +26,12 @@
     .historia{
         font-size: 10px;
         text-align: justify;
+        img{
+            width: 65%;
+            height: auto;
+        }
     }
-    .historia img{
-        width: 50%;
-        height: auto;
-    }
+    
     .torneos-disputados{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -41,21 +42,21 @@
 
 @media(max-width:400px) {
     .equipo {
-        height: 125px;
+        height: 200px;
         width: auto;
     }
     
     .historia{
         font-size: 10px;
         text-align: justify;
-    }
-    .historia img{
-        width: auto;
-        height: 50%;
-    }
-    .torneos-disputados{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1,1fr);
-    }
+        img{
+            width: 50%;
+            height: 200px;
+        }
+}
+.torneos-disputados{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
 }

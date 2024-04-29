@@ -24,3 +24,32 @@ $font-size: 12px
 //!  MAPAS
 
 //!  EXTENDS
+
+//!  MIXINS
+// @mixin flex{
+    //display: flex;
+    //justify-content:center;
+    //align-items:center;
+    // }
+
+//!  CONDICIONALES
+// OPERADORES DE COMPARACION
+// =asignacion
+//==es igual
+//=== estrictamente igual
+
+// != es diferente
+// >mayor que
+// <menor que
+// >=mayor o igual
+// >=menor o igual
+
+//if (condicion){
+    //se ejecuta esto
+//}else{
+    //se ejecuta esto otro
+//}
+
+//! BUCLE
+//@for $i from 1 through 6{
+    //.titulo-#($i){
