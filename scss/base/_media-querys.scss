@@ -1,62 +1,89 @@
-@media (max-width:940px)  {
-    .equipo {
-        width: 100%;
-    }
-    .historia{
-        font-size: 15px;
-        text-align: justify;
-    }
-    .historia img{
-        width: 50%;
-        height: auto;
-    }
-    .torneos-disputados{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-    }
-}
+@media (max-width:940px) {
+    body {
 
-@media(max-width:560px) {
-    .equipo {
-        height: 250px;
-        width: auto;
-    }
-    
-    .historia{
-        font-size: 10px;
-        text-align: justify;
-        img{
-            width: 65%;
+        .equipo {
+            width: 100%;
+        }
+
+        .historia {
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .historia img {
+            width: 50%;
             height: auto;
         }
     }
-    
-    .torneos-disputados{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1,1fr);
+}
+
+@media (max-width:940px) {
+    .torneos {
+        .torneos-disputados {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
     }
 }
 
 
-@media(max-width:400px) {
-    .equipo {
-        height: 200px;
-        width: auto;
+@media(max-width:600px) {
+    body {
+
+        .equipo {
+            height: 250px;
+            width: auto;
+        }
+
+        .historia {
+            font-size: 10px;
+            text-align: justify;
+        }
+
+        .historia img {
+            width: 250px;
+            height: 300px;
+        }
     }
-    
-    .historia{
-        font-size: 10px;
-        text-align: justify;
-        img{
+}
+
+@media (max-width:600px) {
+    .torneos {
+        .torneos-disputados {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+        }
+    }
+}
+
+@media(max-width:400px) {
+    body {
+
+        .equipo {
+            height: 200px;
+            width: auto;
+        }
+
+        .historia {
+            font-size: 10px;
+            text-align: justify;
+        }
+
+        .historia img {
             width: 50%;
             height: 200px;
         }
+    }
 }
-.torneos-disputados{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(1,1fr);
-}
+
+@media (max-width:400px) {
+    .torneos {
+        .torneos-disputados {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+        }
+    }
 }
