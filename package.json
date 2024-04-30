@@ -1,7 +1,7 @@
 {
   "name": "preentrega1-antonio-torquatti",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mi pagina trata sobre el equipo de futbol que tengo con unos amigos de mi colegio, en mi index explique brevemente la historia del equipo y algunas fotos.\r Luego fui creando distintas paginas para mostrar distintas partes del equipo, por ejemplo:\r Las Alineaciones con las cuales jugamos distintos partidos,\r Los Jugadores del plantel,\r Los videos de los partidos importantes del equipo,\r Los torneos que disputamos,\r Y una pagina de contacto para agregar comentarios o algo que se pueda mejorar.\r Asi que si les interesa como esta hecho o algo pueden hacerlo saber en el cajon de comentarios.\r Muchas gracias",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,5 +9,9 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  }
 }
