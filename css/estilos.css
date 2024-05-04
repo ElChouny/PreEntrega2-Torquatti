@@ -152,11 +152,10 @@ header nav {
   font-style: normal;
   background-color: #b84444;
   color: white;
-  flex-wrap: wrap; }
-  .partidos section .partidos-list li {
-    margin: 20px; }
-    .partidos section .partidos-list li a {
-      margin: 10px; }
+  flex-wrap: wrap;
+  display: flex; }
+  .partidos section .partidos-list {
+    padding: 30px; }
 
 .torneos section div h2 {
   background-color: #b84444;

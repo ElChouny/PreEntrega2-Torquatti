@@ -8,13 +8,10 @@
         background-color: rgb(184, 68, 68);
         color: white;
         flex-wrap: wrap;
+        display: flex;
         .partidos-list{
-            li{
-                margin: 20px;
-                a{
-                    margin: 10px;
-                }
-            }
+            padding: 30px;
+            
         }
     }
 }
