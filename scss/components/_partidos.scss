@@ -10,8 +10,11 @@
         flex-wrap: wrap;
         display: flex;
         .partidos-list{
-            padding: 30px;
-            
+            padding: 15px;
+            margin: 10px;
+            iframe{
+                padding: 35px;
+            }
         }
     }
 }

@@ -155,7 +155,10 @@ header nav {
   flex-wrap: wrap;
   display: flex; }
   .partidos section .partidos-list {
-    padding: 30px; }
+    padding: 15px;
+    margin: 10px; }
+    .partidos section .partidos-list iframe {
+      padding: 35px; }
 
 .torneos section div h2 {
   background-color: #b84444;
@@ -249,7 +252,10 @@ header nav {
   .alineaciones .alineaciones-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }
+    grid-template-rows: repeat(2, 1fr); }
+  .partidos .partidos-list iframe {
+    height: 215px;
+    width: 430px; } }
 
 @media (max-width: 600px) {
   body .equipo {
@@ -270,7 +276,10 @@ header nav {
   .alineaciones .alineaciones-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }
+    grid-template-rows: repeat(2, 1fr); }
+  .partidos .partidos-list iframe {
+    height: 200px;
+    width: 400px; } }
 
 @media (max-width: 400px) {
   body .equipo {
@@ -291,4 +300,7 @@ header nav {
   .alineaciones .alineaciones-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); } }
+    grid-template-rows: repeat(2, 1fr); }
+  .partidos .partidos-list iframe {
+    height: 175px;
+    width: 375px; } }
