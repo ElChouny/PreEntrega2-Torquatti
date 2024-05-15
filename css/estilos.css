@@ -47,7 +47,8 @@ header nav {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex; }
+  display: flex;
+  object-fit: contain; }
 
 .historia {
   font-family: "Poppins", sans-serif;
@@ -74,7 +75,7 @@ header nav {
       padding: 10px;
       display: flex;
       align-items: center;
-      object-fit: cover; }
+      object-fit: contain; }
 
 .alineaciones .alineaciones-del-equipo {
   font-family: "Poppins", sans-serif;
@@ -110,7 +111,8 @@ header nav {
       .alineaciones .alineaciones-del-equipo .alineaciones-container .alineacion img {
         width: 250px;
         height: 250px;
-        padding-bottom: 50px; }
+        padding-bottom: 50px;
+        object-fit: fill; }
 
 .jugadores-del-equipo section div h2 {
   background-color: #b84444;
@@ -188,7 +190,8 @@ header nav {
     .torneos .torneos-disputados .grid-item img {
       width: 250px;
       height: 250px;
-      padding-bottom: 30px; }
+      padding-bottom: 30px;
+      object-fit: contain; }
 
 .contactame {
   background-color: #b84444;

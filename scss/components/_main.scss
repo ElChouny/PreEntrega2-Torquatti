@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    object-fit: contain;
 }
 
 .historia {
@@ -42,7 +43,7 @@
                 padding: 10px;
                 display: flex;
                 align-items: center;
-                object-fit: cover;
+                object-fit: contain;
             }
         }
     }
