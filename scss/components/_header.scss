@@ -1,6 +1,6 @@
 header {
     nav {
-        background-color: black;
+        background-color: $color-principal;
         align-items: center;
         justify-content: space-evenly;
         padding: auto;
@@ -25,7 +25,7 @@ header {
                 color: white;
 
                 ul {
-                    background-color: black;
+                    background-color: $color-principal;
                     list-style: none;
                     justify-content: center;
                     margin: 0 30px;

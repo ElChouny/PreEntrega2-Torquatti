@@ -51,7 +51,7 @@ header nav {
   object-fit: contain; }
 
 .historia {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
   font-weight: 5px;
   font-style: normal;
@@ -78,7 +78,7 @@ header nav {
       object-fit: contain; }
 
 .alineaciones .alineaciones-del-equipo {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
   font-weight: 20px;
   font-style: normal;
@@ -122,7 +122,7 @@ header nav {
   border: none; }
 
 .jugadores-del-equipo section .jugadores {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   padding: 40px;
   font-size: 10px;
   font-weight: 10px;
@@ -148,7 +148,7 @@ header nav {
       padding-bottom: 25px; }
 
 .partidos section {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
   font-weight: 10px;
   font-style: normal;
@@ -168,7 +168,7 @@ header nav {
   text-align: center; }
 
 .torneos .torneos-disputados {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
   font-weight: 10px;
   font-style: normal;
